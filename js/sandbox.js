@@ -105,31 +105,10 @@ function timeConvert(n) {
     
     console.log(timeConvert());
 
-    // eg.2
-// function timeConverter(n) {
-//     var number = 133;
-//     var hours = (number / 60);
-//     var remainhours = Math.floor(hours);
-//     var minutes = (hours - remainhours) * 60;
-//     var remainingminutes = Math.round(minutes);
-//     return number + " minutes = " + remainhours + " hour(s) and " + remainingminutes + " minute(s).";
-//     }
-    
-//     console.log(timeConverter(200));
+
 
     // Task 9
-    // function multiplesOfThousand(number) {
-    //     let sum = 0;
-    //     for (let i = 0; i <= number; i++) {
-      
-    //       if (i % 3 === 0 || i % 5 === 0) {
-    //         sum += i;
-    //       }
-    //     }
-    //     return sum;
-    //   }
-      
-    //   console.log( multiplesOfThousand(10) );
+
 
     let multiples = function (n) {
         let Totalsum = 0;
@@ -149,7 +128,7 @@ function timeConvert(n) {
 
 
 // Task 10
-let vowels = "aeiouAEIOU";
+let vowels = "aAeEoUiIuU";
 let string = "HELLO challenge.Pre BOOTCAMP challenges";
 
 let array = "";
